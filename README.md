@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d79c78d8-ef3b-4ab4-af7e-bbb7b5e6d0db/deploy-status)](https://app.netlify.com/sites/huddle-landing-page-single-sections/deploys)
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/gitlab/last-commit/Yashi-Singh-9/huddle-landing-page-with-a-single-introductory-section)](https://gitlab.com/Yashi-Singh-9/huddle-landing-page-with-a-single-introductory-section/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/Yashi-Singh-9/Huddle-Landing-Page-With-a-Single-Introductory-Section)](https://github.com/Yashi-Singh-9/Huddle-Landing-Page-With-a-Single-Introductory-Section/commits/main)
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
