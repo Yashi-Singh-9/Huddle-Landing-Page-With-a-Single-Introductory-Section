@@ -32,6 +32,7 @@ Users should be able to:
 ![Huddle Landing Page Desktop Design](design/desktop-design.png)
 
 **Mobile Design**
+
 <img src="design/mobile-design.png" height="750" width="auto">
 
 ### Links
