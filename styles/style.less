@@ -1,0 +1,123 @@
+@violet: hsl(257, 40%, 49%);
+@soft-magenta: hsl(300, 69%, 71%);
+@white: hsl(0, 0%, 100%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background: url(images/bg-desktop.svg) no-repeat @violet;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        background: url(images/bg-mobile.svg) no-repeat @violet;
+        background-size: cover;
+    }
+}
+
+main {
+    padding: 4rem;
+
+    .info {
+        display: flex;
+        gap: 5rem;
+        margin: 5rem auto 1rem auto;
+
+        @media (max-width: 1000px) {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .huddle-info{
+            h1{
+                color: @white;
+                font-size: 3.4rem;
+                margin-bottom: 1.6rem;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 600;
+
+                @media (max-width: 425px) {
+                    font-size: 2.4rem;
+                }
+            }
+
+            p{
+                color: @white;
+                font-size: 1.4rem;
+                max-width: 650px;
+                width: 100%;
+                margin-bottom: 2rem;
+
+                @media (max-width: 1000px) {
+                    margin: 0 auto 2rem auto;
+                }
+            }
+
+            button{
+                cursor: pointer;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 400;
+                font-size: 1.25rem;
+                color: @violet;
+                padding: 1rem;
+                border-radius: 50px;
+                max-width: 200px;
+                width: 100%;
+                border: none;
+                box-shadow: 0 10px 13px darken(@violet, 30%);
+                transition: 0.3s ease;
+
+                &:hover{
+                    background-color: @soft-magenta;
+                    color: @white;
+                }
+            }
+        }
+    }
+
+    .social-links{
+        margin: 0 0 0 83%;
+
+        @media (max-width: 1000px) {
+            margin: 3rem auto;
+            text-align: center;    
+        }
+
+        a,
+        a:visited{
+            color: @white;
+            font-size: 1.5rem;
+
+            i{
+                margin-right: 1rem;
+                border-radius: 50%;
+                border: 2px solid @white;
+                padding: 1rem;
+                transition: 0.3s ease;
+
+                &:hover {
+                    color: @soft-magenta;
+                    border-color: @soft-magenta;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    text-align: center;
+    color: @white;
+    
+    a,
+    a:visited {
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+        color: @white;
+    }
+}
